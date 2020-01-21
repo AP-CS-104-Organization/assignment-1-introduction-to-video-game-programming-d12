@@ -1,7 +1,6 @@
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSprite) {
     info.changeScoreBy(1)
     piza.setPosition(Math.randomRange(0, 160), Math.randomRange(0, 120))
-    info.startCountdown(10)
 })
 let piza: Sprite = null
 scene.setBackgroundColor(3)
